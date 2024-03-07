@@ -4,19 +4,50 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 header{
     text-align: center;
     color: crimson;
     margin-top: 2rem;
 }
+
 main{
     text-align: center;
     color: black;
-    margin-top: 5rem;
+    margin-bottom: 10px;
 }
+
 img{
-    margin-top: 5rem;
     float: left;
     width: 200px;
-    margin-left: 5rem;
+}
+
+.cards{
+    width: calc((100% / 3) - 20px);
+    margin-top: 2%;
+    background-color: black;
+    float: left;
+    margin: 0 10px;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.email{
+    color: aqua;
+}
+
+section::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.nome{
+    color: antiquewhite;
+}
+
+.ruolo{
+    color: antiquewhite;
 }
