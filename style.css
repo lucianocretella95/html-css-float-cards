@@ -15,6 +15,7 @@ main{
     text-align: center;
     color: black;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
 img{
@@ -33,10 +34,13 @@ img{
 
 .nome{
     font-weight: bold;
+    color: antiquewhite;
+    font-size: large;
 }
 
 .email{
     color: aqua;
+    font-size: medium;
 }
 
 section::after{
@@ -45,10 +49,10 @@ section::after{
     clear: both;
 }
 
-.nome{
+.ruolo{
     color: antiquewhite;
 }
 
-.ruolo{
-    color: antiquewhite;
+.padding{
+    padding: 10px;
 }
